@@ -30,6 +30,7 @@
 #define IMAGE_TRANSPORT__PUBLISHER_HPP_
 
 #include <memory>
+#include <optional>
 #include <string>
 
 #include "rclcpp/macros.hpp"

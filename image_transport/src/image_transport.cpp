@@ -29,6 +29,7 @@
 #include "image_transport/image_transport.hpp"
 
 #include <memory>
+#include <optional>
 #include <string>
 #include <vector>
 

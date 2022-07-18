@@ -29,6 +29,7 @@
 #ifndef IMAGE_TRANSPORT__PUBLISHER_PLUGIN_HPP_
 #define IMAGE_TRANSPORT__PUBLISHER_PLUGIN_HPP_
 
+#include <optional>
 #include <string>
 #include <vector>
 
