@@ -162,7 +162,9 @@ protected:
     (void) options;
     RCLCPP_ERROR(
       node->get_logger(),
-      "SubscriberPlugin::subscribeImpl with five arguments has not been overridden");
+      "SubscriberPlugin::subscribeImpl with five arguments has not been overridden for "
+      "transport: %s",
+      getTransportName().c_str());
     this->subscribeImpl(node, base_topic, callback, custom_qos);
   }
 };

@@ -151,7 +151,9 @@ protected:
     (void) options;
     RCLCPP_ERROR(
       node->get_logger(),
-      "PublisherPlugin::advertiseImpl with four arguments has not been overridden");
+      "PublisherPlugin::advertiseImpl with four arguments has not been overridden for "
+      "transport: %s",
+      getTransportName().c_str());
     this->advertiseImpl(node, base_topic, custom_qos);
   }
 };
