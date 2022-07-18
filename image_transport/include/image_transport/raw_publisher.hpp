@@ -48,8 +48,6 @@ namespace image_transport
 
 class RawPublisher : public SimplePublisherPlugin<sensor_msgs::msg::Image>
 {
-  using Base = SimplePublisherPlugin<sensor_msgs::msg::Image>;
-
 public:
   virtual ~RawPublisher() {}
 
